@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	@@include('components/_headContent.htm', {
+	"title": "Business",
+	})
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/aboutUs.min.css">
+</head>
+
+<body>
+	@@include('_header.htm', {})
+
+	<main class="main">
+		<div class="main__body main_overflow-hidden">
+			<div class='swiper hero-slider'>
+				<div class='swiper-wrapper'>
+					<div class='swiper-slide'>
+						<section style="background: url('../img/sliderBg.jpg') no-repeat center / cover;" class='hero' id="firstSlide">
+							<div class='hero__body _container'>
+								<div class="hero__content">
+									<h1 data-swiper-parallax="-20" data-swiper-parallax-duration="1000" tabindex='0' class='hero__title _title-main _animate-trn _animate-trn_long _anim-main-title'>We make Filling & Packaging
+										Machines for <span class="_yellow-decor">Food Industry</span></h1>
+									<p data-swiper-parallax="-40" data-swiper-parallax-duration="1000" class="hero__text _text _animate-trn _animate-trn_long _anim-main-text">With our flexible production capacity and high technology, we produce customized solutions
+										for your needs.</p>
+									<div data-swiper-parallax="-60" data-swiper-parallax-duration="1000" class="hero__footer _animate-trn _animate-trn_long _anim-main-footer">
+										<a href='products.html' class="hero__ref _yellow-ref" target='_blank' rel='noopener noreferrer'>Our Products</a>
+										<a href="tel:+08505447514" class="telephone" aria-label="help phone">
+											<div class="telephone__icon _contain-image">
+												<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M27.0633 22.1166C27.1976 22.5199 26.9522 23.2016 26.5156 23.6382L23.7462 26.4076C23.0913 27.0629 21.861 27.3154 21.0009 26.9711L19.7212 26.4596C12.5536 23.5922 4.40651 15.4456 1.53957 8.27756L1.0277 6.99831C0.683821 6.13818 0.936258 4.90793 1.5912 4.253L4.36057 1.48362C4.7972 1.04656 5.47926 0.801121 5.8822 0.935871C8.09945 1.67481 10.4996 4.0745 11.2385 6.29175C11.3728 6.69468 11.1274 7.37675 10.6908 7.81337L9.10832 9.39581C8.67126 9.83243 8.54132 10.6357 8.81738 11.1878L9.22995 12.0134C10.4729 14.4992 13.4999 17.5263 15.9858 18.7692L16.8109 19.1818C17.3635 19.4579 18.1663 19.3275 18.6029 18.8909L20.1858 17.3084C20.6224 16.8718 21.3041 16.6264 21.7074 16.7607C23.9243 17.4996 26.3244 19.8997 27.0633 22.1166Z"
+														fill="black" />
+													<path
+														d="M12.926 5.0811L13.0283 6.20329C13.0563 6.51085 13.2668 6.72785 13.4986 6.68716C13.4986 6.68716 13.9278 6.65523 14.3601 6.66704C16.1919 6.71035 17.9366 7.46635 19.2303 8.76791C20.5319 10.0616 21.2875 11.8064 21.3347 13.6417C21.3509 14.2358 21.2848 14.8234 21.2787 14.8465C21.2035 15.1462 21.3863 15.4455 21.6873 15.515L22.7754 15.7662C23.0764 15.8357 23.3809 15.6485 23.4544 15.3488C23.5056 15.1427 23.5913 14.3662 23.5703 13.5826C23.5108 11.1733 22.5177 8.88254 20.8128 7.18548C19.1153 5.4801 16.825 4.48698 14.4156 4.42791C13.8968 4.41391 13.3818 4.44673 13.3818 4.44673C13.1023 4.48916 12.8984 4.77354 12.926 5.0811Z"
+														fill="black" />
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														d="M12.6026 1.5234L12.7041 2.63728C12.7321 2.94484 12.9811 3.16534 13.2602 3.12903C13.2602 3.12903 13.7707 3.1019 14.2809 3.11415C17.0699 3.1894 19.7168 4.33303 21.679 6.31097L21.6869 6.31884C21.6829 6.3149 21.6829 6.3149 21.679 6.31097C21.6829 6.3149 21.6829 6.3149 21.6829 6.3149L21.6869 6.31884C23.6652 8.28103 24.8124 10.9318 24.8837 13.717C24.9038 14.55 24.8189 15.3834 24.7581 15.6494C24.6894 15.9508 24.878 16.2514 25.179 16.321L26.2706 16.573C26.5716 16.6421 26.8713 16.454 26.9399 16.153C27.0423 15.705 27.1456 14.6838 27.1228 13.6618C27.0357 10.2988 25.655 7.09847 23.2654 4.73247C23.2654 4.73247 23.2654 4.73247 23.2614 4.72853L23.2654 4.73247C20.8998 2.34284 17.6991 0.962089 14.3404 0.878964C13.741 0.864527 13.1434 0.893839 13.1075 0.898214C12.8008 0.935839 12.5746 1.21584 12.6026 1.5234ZM23.2614 4.72853C23.2654 4.73247 23.2654 4.73247 23.2654 4.73247L23.2614 4.72853Z"
+														fill="black" />
+												</svg>
+											</div>
+											<p class="telephone__text">Sales Department</p>
+											<span class="telephone__number">+0(850) 544 7514</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class='swiper-slide'>
+						<section style="background: url('../img/sliderBg.jpg') no-repeat center / cover;" class='hero'>
+							<div class='hero__body _container'>
+								<div class="hero__content">
+									<h1 data-swiper-parallax="-20" data-swiper-parallax-duration="1000" tabindex='0' class='hero__title _title-main'>We make Filling
+										Machines for <span class="_yellow-decor">Industry</span></h1>
+									<p data-swiper-parallax="-40" data-swiper-parallax-duration="1000" class="hero__text _text">With our flexible production capacity and high technology, we produce customized solutions
+										for your needs.</p>
+									<div data-swiper-parallax="-60" data-swiper-parallax-duration="1000" class="hero__footer">
+										<a href='products.html' class="hero__ref _yellow-ref" target='_blank' rel='noopener noreferrer'>Our Products</a>
+										<a href="tel:+08505447514" class="telephone" aria-label="help phone">
+											<div class="telephone__icon _contain-image">
+												<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M27.0633 22.1166C27.1976 22.5199 26.9522 23.2016 26.5156 23.6382L23.7462 26.4076C23.0913 27.0629 21.861 27.3154 21.0009 26.9711L19.7212 26.4596C12.5536 23.5922 4.40651 15.4456 1.53957 8.27756L1.0277 6.99831C0.683821 6.13818 0.936258 4.90793 1.5912 4.253L4.36057 1.48362C4.7972 1.04656 5.47926 0.801121 5.8822 0.935871C8.09945 1.67481 10.4996 4.0745 11.2385 6.29175C11.3728 6.69468 11.1274 7.37675 10.6908 7.81337L9.10832 9.39581C8.67126 9.83243 8.54132 10.6357 8.81738 11.1878L9.22995 12.0134C10.4729 14.4992 13.4999 17.5263 15.9858 18.7692L16.8109 19.1818C17.3635 19.4579 18.1663 19.3275 18.6029 18.8909L20.1858 17.3084C20.6224 16.8718 21.3041 16.6264 21.7074 16.7607C23.9243 17.4996 26.3244 19.8997 27.0633 22.1166Z"
+														fill="black" />
+													<path
+														d="M12.926 5.0811L13.0283 6.20329C13.0563 6.51085 13.2668 6.72785 13.4986 6.68716C13.4986 6.68716 13.9278 6.65523 14.3601 6.66704C16.1919 6.71035 17.9366 7.46635 19.2303 8.76791C20.5319 10.0616 21.2875 11.8064 21.3347 13.6417C21.3509 14.2358 21.2848 14.8234 21.2787 14.8465C21.2035 15.1462 21.3863 15.4455 21.6873 15.515L22.7754 15.7662C23.0764 15.8357 23.3809 15.6485 23.4544 15.3488C23.5056 15.1427 23.5913 14.3662 23.5703 13.5826C23.5108 11.1733 22.5177 8.88254 20.8128 7.18548C19.1153 5.4801 16.825 4.48698 14.4156 4.42791C13.8968 4.41391 13.3818 4.44673 13.3818 4.44673C13.1023 4.48916 12.8984 4.77354 12.926 5.0811Z"
+														fill="black" />
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														d="M12.6026 1.5234L12.7041 2.63728C12.7321 2.94484 12.9811 3.16534 13.2602 3.12903C13.2602 3.12903 13.7707 3.1019 14.2809 3.11415C17.0699 3.1894 19.7168 4.33303 21.679 6.31097L21.6869 6.31884C21.6829 6.3149 21.6829 6.3149 21.679 6.31097C21.6829 6.3149 21.6829 6.3149 21.6829 6.3149L21.6869 6.31884C23.6652 8.28103 24.8124 10.9318 24.8837 13.717C24.9038 14.55 24.8189 15.3834 24.7581 15.6494C24.6894 15.9508 24.878 16.2514 25.179 16.321L26.2706 16.573C26.5716 16.6421 26.8713 16.454 26.9399 16.153C27.0423 15.705 27.1456 14.6838 27.1228 13.6618C27.0357 10.2988 25.655 7.09847 23.2654 4.73247C23.2654 4.73247 23.2654 4.73247 23.2614 4.72853L23.2654 4.73247C20.8998 2.34284 17.6991 0.962089 14.3404 0.878964C13.741 0.864527 13.1434 0.893839 13.1075 0.898214C12.8008 0.935839 12.5746 1.21584 12.6026 1.5234ZM23.2614 4.72853C23.2654 4.73247 23.2654 4.73247 23.2654 4.73247L23.2614 4.72853Z"
+														fill="black" />
+												</svg>
+											</div>
+											<p class="telephone__text">Sales Department</p>
+											<span class="telephone__number">+0(850) 544 7514</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class='hero-slider__pag swiper-pagination'></div>
+			</div>
+			<section class='about'>
+				<div class='about__body _container'>
+					<div class="main-text-wrapper">
+						<span class="main-text-wrapper__subtitle _subtitle _about-subtext _animate-trn">WHO WE are</span>
+						<h2 tabindex='0' class='main-text-wrapper__title about__title _title-2 _about-title _animate-trn'>Crosson is an international group
+							dedicated to the <span class="_yellow-decor">food industry.</span></h2>
+						<p class="main-text-wrapper__text _text _op-07 _about-text _animate-trn">Crosson has twenty years’ experience in food, quality, automation and software which has been established in the food sector for Research,
+							Efficiency and
+							Solution Production.
+
+							It was not long to discover that supported to knowledge by scientific perspectives, would be the solution to the real needs of the sector. </p>
+						<div class="main-text-wrapper__footer _about-footer _animate-trn">
+							<a href='#' class="hero__ref _yellow-ref" target='_blank' rel='noopener noreferrer'>About Us</a>
+							<a class="_text-ref" href='#' target='_blank' rel='noopener noreferrer'>Quality Certificates</a>
+						</div>
+					</div>
+					<div class="about__advantages">
+						<article class="about__advantage advantage _about-advantage-1 _animate-trn">
+							<div class="advantage__icon _contain-img">
+								<img src="img/advantages/exported.svg" loading='lazy' alt='exported' width=54 height=54>
+							</div>
+							<span class="advantage__title _title-4">Exported to 24 Countries</span>
+							<p class="advantage__text _text _op-07">168 companies in 24 countries use our machines</p>
+						</article>
+						<article class="about__advantage advantage _about-advantage-2 _animate-trn">
+							<div class="advantage__icon _contain-img">
+								<img src="img/advantages/product.svg" loading='lazy' alt='exported' width=54 height=54>
+							</div>
+							<span class="advantage__title _title-4">Exported to 24 Countries</span>
+							<p class="advantage__text _text _op-07">168 companies in 24 countries use our machines</p>
+						</article>
+						<article class="about__advantage advantage _about-advantage-3 _animate-trn">
+							<div class="advantage__icon _contain-img">
+								<img src="img/advantages/touchPeople.svg" loading='lazy' alt='exported' width=54 height=54>
+							</div>
+							<span class="advantage__title _title-4">Exported to 24 Countries</span>
+							<p class="advantage__text _text _op-07">168 companies in 24 countries use our machines</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class='what-we-do'>
+				<div class='what-we-do__body _container _block-padding'>
+					<div class='main-text-wrapper'>
+						<span class='main-text-wrapper__subtitle _subtitle _what-do-subtitle _animate-trn'>WHAT WE DO</span>
+						<h2 tabindex='0' class='main-text-wrapper__title what-we-do__title _title-2 _what-do-title _animate-trn'>With our flexible production capacity and high technology, we <span class='_yellow-decor'>produce
+								customized</span> solutions for your needs.</h2>
+					</div>
+					<div class="what-we-do__refs _what-do-refs _animate-trn">
+						<a href="#" class="what-we-do__ref advantage">
+							<div class="advantage__icon _contain-img">
+								<img src="img/advantages/video.svg" loading='lazy' alt='video' width=59 height=59>
+							</div>
+							<span class="advantage__title _title-3">Watch Our Machines</span>
+							<p class="advantage__text _text _op-07">2.34Min, 14.7MB</p>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class='tabs'>
+				<div class='tabs__body _container _block-padding'>
+					<div class="tabs__buttons">
+						<button aria-label='Button, tab number 1' data-toggle-elem-number='0' type='button' class="tabs__button tab__btn">
+							<div class="tabs__button-icon _contain-img">
+								<img src="img/icons/cass.svg" loading='lazy' alt='Filling and Packaging
+								Machines' width=57 height=57>
+							</div>
+							<span class="tabs__title">Filling and Packaging Machines</span>
+						</button>
+						<button aria-label='Button, tab number 2' data-toggle-elem-number='1' type='button' class="tabs__button tab__btn">
+							<div class="tabs__button-icon _contain-img">
+								<img src="img/icons/harddiskExternal.svg" loading='lazy' alt='Filling and Packaging
+								Machines' width=57 height=57>
+							</div>
+							<span class="tabs__title">End of Line Solutions</span>
+						</button>
+						<button aria-label='Button, tab number 3' data-toggle-elem-number='2' type='button' class="tabs__button tab__btn">
+							<div class="tabs__button-icon _contain-img">
+								<img src="img/icons/cloudDatabase.svg" loading='lazy' alt='Filling and Packaging
+								Machines' width=57 height=57>
+							</div>
+							<span class="tabs__title">End of Line Solutions</span>
+						</button>
+						<button aria-label='Button, tab number 4' data-toggle-elem-number='3' type='button' class="tabs__button tab__btn">
+							<div class="tabs__button-icon _contain-img">
+								<img src="img/icons/headphones.svg" loading='lazy' alt='Filling and Packaging
+								Machines' width=57 height=57>
+							</div>
+							<span class="tabs__title">End of Line Solutions</span>
+						</button>
+						<button aria-label='Button, tab number 5' data-toggle-elem-number='4' type='button' class="tabs__button tab__btn">
+							<div class="tabs__button-icon _contain-img">
+								<img src="img/icons/lamp.svg" loading='lazy' alt='Filling and Packaging
+								Machines' width=57 height=57>
+							</div>
+							<span class="tabs__title">End of Line Solutions</span>
+						</button>
+					</div>
+					<div class="tabs__content">
+						<div class="tabs__items">
+							<div class="tabs__main tab__item">
+								<div class='main-text-wrapper'>
+									<h2 tabindex='0' class='main-text-wrapper__title _title-3'>Filling and Packaging Machines</h2>
+									<p class='main-text-wrapper__text _text _op-07'>Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder
+										croissant
+										toffee shortbread chocolate sweet pie. <a href="#" class="read-more-card__ref read-more-card__ref_blue _transparent-ref">Read More</a></p>
+								</div>
+								<div class="tabs__machines">
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine2.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine3.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__main tab__item">
+								<div class='main-text-wrapper'>
+									<h2 tabindex='0' class='main-text-wrapper__title _title-3'>Filling and Packaging Machines</h2>
+									<p class='main-text-wrapper__text _text _op-07'>Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder
+										croissant
+										toffee shortbread chocolate sweet pie. <a href="#" class="read-more-card__ref read-more-card__ref_blue _transparent-ref">Read More</a></p>
+								</div>
+								<div class="tabs__machines">
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine2.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine3.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__main tab__item">
+								<div class='main-text-wrapper'>
+									<h2 tabindex='0' class='main-text-wrapper__title _title-3'>Filling and Packaging Machines</h2>
+									<p class='main-text-wrapper__text _text _op-07'>Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder
+										croissant
+										toffee shortbread chocolate sweet pie. <a href="#" class="read-more-card__ref read-more-card__ref_blue _transparent-ref">Read More</a></p>
+								</div>
+								<div class="tabs__machines">
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine2.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine3.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__main tab__item">
+								<div class='main-text-wrapper'>
+									<h2 tabindex='0' class='main-text-wrapper__title _title-3'>Filling and Packaging Machines</h2>
+									<p class='main-text-wrapper__text _text _op-07'>Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder
+										croissant
+										toffee shortbread chocolate sweet pie. <a href="#" class="read-more-card__ref read-more-card__ref_blue _transparent-ref">Read More</a></p>
+								</div>
+								<div class="tabs__machines">
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine2.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine3.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__main tab__item">
+								<div class='main-text-wrapper'>
+									<h2 tabindex='0' class='main-text-wrapper__title _title-3'>Filling and Packaging Machines</h2>
+									<p class='main-text-wrapper__text _text _op-07'>Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder
+										croissant
+										toffee shortbread chocolate sweet pie. <a href="#" class="read-more-card__ref read-more-card__ref_blue _transparent-ref">Read More</a></p>
+								</div>
+								<div class="tabs__machines">
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine2.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+									<div class="tabs__machine machine">
+										<div class="machine__preview _cover-img">
+											<img src="img/machines/machine3.jpg" loading='lazy' alt='Linear Machines' width=290 height=192>
+										</div>
+										<span class="machine__title">Rotary Machines</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tabs__sidepanel">
+							<div class="tabs__meeting meeting">
+								<div class="meeting__content">
+									<h3 class="meeting__title _text">Let's Plan an Online Meeting</h3>
+									<span class="meeting__subtitle _op-07 _text">We are Available Now</span>
+									<div class="meeting__icon _contain-img">
+										<img src="img/icons/calendar.svg" loading='lazy' alt='calendar' width=57 height=57>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__contacts tabs-contacts">
+								<h3 class="tabs-contacts__title _title-4 _text">Are you interested? Contact our sales department now</h3>
+								<div class="tabs-contacts__contact contact">
+									<div class="contact__icon _contain-img">
+										<img src="img/icons/phone.svg" loading='lazy' alt='phone' width=24 height=24>
+									</div>
+									<span class="contact__title"><span class="contact__title_bold">Erkan giris</span> / Sales Manager</span>
+									<span class="contact__contact-data">+0(850) 544 7514</span>
+								</div>
+								<div class="tabs-contacts__contact contact">
+									<div class="contact__icon _contain-img">
+										<img src="img/icons/mail.svg" loading='lazy' alt='phone' width=28 height=28>
+									</div>
+									<span class="contact__title">Sales Department</span>
+									<span class="contact__contact-data">sales@crosson.com</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='how-we-do'>
+				<div class='how-we-do__body _container _block-padding'>
+					<div class='main-text-wrapper'>
+						<span class='main-text-wrapper__subtitle _subtitle'>HOW WE DO</span>
+						<h2 tabindex='0' class='main-text-wrapper__title _title-main'>A journey from <span class='_yellow-decor'>design to product.</span></h2>
+						<p class='main-text-wrapper__text _text'>Starting from the planning of the product our customer wants; design, manufacturing, software, mounting, installation & comissioning are made by
+							us.</p>
+					</div>
+					<div class="how-we-do__cards">
+						@@include('components/_readMore.htm', {
+						'imgName': 'readMore1',
+						'w': '456',
+						'h': '304',
+						'title': 'Product Design',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+						@@include('components/_readMore.htm', {
+						'imgName': 'readMore2',
+						'w': '456',
+						'h': '304',
+						'title': 'Planing & Production',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+						@@include('components/_readMore.htm', {
+						'imgName': 'readMore3',
+						'w': '456',
+						'h': '304',
+						'title': 'Installation & Comisioning',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+					</div>
+				</div>
+			</section>
+			<section class='our-news'>
+				<div class='our-news__body _container _block-padding'>
+					<div class='main-text-wrapper'>
+						<span class='main-text-wrapper__subtitle _subtitle'>COMPANY NEWS</span>
+						<h2 tabindex='0' class='main-text-wrapper__title _title-main'>News from <span class='_yellow-decor'>Crosson</span></h2>
+						<p class='main-text-wrapper__text _text'>Cake pudding lollipop pastry cupcake chocolate. Gummi bears halvah sesame snaps chocolate cake gummies sugar plum cotton candy cupcake sweet</p>
+					</div>
+					<div class="our-news__news-block">
+						@@include('components/_news.htm', {
+						'imgPath': 'news1',
+						'w': '310',
+						'h': '384',
+						'title': 'Crosson Holding’s 58th ordinary general assembly convened.',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+						@@include('components/_news.htm', {
+						'imgPath': 'news2',
+						'w': '310',
+						'h': '384',
+						'title': 'Crosson Holding’s new Board of Directors has been determined.',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	@@include('_footer.htm', {})
+
+</body>
+
+<script type="module" src="scripts/generalScript.js"></script>
+<script type="module" src="scripts/burgerMenuConn.js"></script>
+<script type="module" src="scripts/submenuConn.js"></script>
+<script type="module" src="scripts/spoilerConn.js"></script>
+<script type="module" src="scripts/tabConn.js"></script>
+<script type="module" src="scripts/animateByScrollConn.js"></script>
+
+
+
+<!-- Swiper -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<script defer src="scripts/swiper-bundle.min.js"></script>
+<script type="module" src="scripts/sliders.js"></script>
+
+</html>
+
+<!-- 
+  Made in Russia, with ❤, by Ivan Ulyanov. 
+-->

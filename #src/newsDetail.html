@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	@@include('components/_headContent.htm', {
+	"title": "News Title",
+	})
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	@@include('_header.htm', {
+	'addClasses': 'header_bottom-shadow',
+	})
+
+	<main class="main _gray-bg">
+		<div class="main__body">
+			<div class="bg-wrapper bg-wrapper_fixed-bg-height _block-small-padding">
+				<section class='navigation'>
+					<div class='navigation__body _container _body'>
+						<h1 tabindex='0' class='navigation__title _title-main'>News Title</h1>
+						<div class="navigation__bar">
+							<a href="#" class="navigation__nav-item">Home</a>
+							<a href="#" class="navigation__nav-item">News</a>
+							<a href="#" class="navigation__nav-item">Crosson Holding’s 58th ordinary general assembly convened</a>
+						</div>
+					</div>
+				</section>
+				<section class='news-detail'>
+					<div class='news-detail__body _container'>
+						<div class="news-detail__main-image _contain-img">
+							<img src="img/newsDetailMainImg.jpg" loading='lazy' alt='About image...' width=1400 height=608>
+						</div>
+						<h2 class="news-detail__title _title-3">At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution
+							for <span class='_yellow-decor'>food, quality, automation and software.</span></h2>
+						<p class="news-detail__text _op-07 _big-line-height">
+							Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee
+							dragée. <br> Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie
+							roll
+							dragée. Candy canes brownie danish pudding jelly gummies.
+							<br><br>
+							Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam
+							muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.
+							<br><br>
+							Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll
+							dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly
+							gummies.
+							<br><br>
+							Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops
+							macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.
+						</p>
+					</div>
+				</section>
+			</div>
+			<section class='our-news our-news_no-bg'>
+				<div class='our-news__body _container _block-padding'>
+					<div class='main-text-wrapper'>
+						<h2 tabindex='0' class='main-text-wrapper__title _title-main'><span class='_yellow-decor'>Related</span> News</h2>
+						<p class='main-text-wrapper__text _text'>Cake pudding lollipop pastry cupcake chocolate. Gummi bears halvah sesame snaps chocolate cake gummies sugar plum cotton candy cupcake sweet</p>
+					</div>
+					<div class="our-news__news-block">
+						@@include('components/_news.htm', {
+						'imgPath': 'news1',
+						'w': '310',
+						'h': '384',
+						'title': 'Crosson Holding’s 58th ordinary general assembly convened.',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+						@@include('components/_news.htm', {
+						'imgPath': 'news2',
+						'w': '310',
+						'h': '384',
+						'title': 'Crosson Holding’s new Board of Directors has been determined.',
+						'text': 'Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.',
+						})
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	@@include('_footer.htm', {})
+
+</body>
+
+<script type="module" src="scripts/generalScript.js"></script>
+<script type="module" src="scripts/burgerMenuConn.js"></script>
+<script type="module" src="scripts/submenuConn.js"></script>
+<script type="module" src="scripts/spoilerConn.js"></script>
+
+</html>
+
+<!-- 
+  Made in Russia, with ❤, by Ivan Ulyanov. 
+-->

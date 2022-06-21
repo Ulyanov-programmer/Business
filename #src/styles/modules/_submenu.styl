@@ -1,0 +1,34 @@
+.submenu-button {
+	position relative;
+
+	&.active {
+	}
+}
+
+.submenu {
+	position absolute;
+	z-index 1;
+	display none;
+	background #fff;
+	border 1px solid #EBEBEB;
+	padding: 5px;
+	top 100%;
+
+	&.show {
+		position absolute;
+		display block;
+	}
+
+	&_to-left {
+		right 0;
+	}
+
+	&_to-right {
+		left 0;
+	}
+
+	&_center {
+		left 50%;
+		transform translate(-50%, 0);
+	}
+}
