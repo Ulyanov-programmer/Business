@@ -170,7 +170,7 @@ body {
 
 		@media (max-width 900px) {
 			gap 0 70px;
-			padding-bottom 250px;
+			padding-bottom 250px !important;
 		}
 
 		@media (max-width 600px) {
@@ -226,7 +226,7 @@ body {
 	border-bottom 1px solid #DFDFDF;
 
 	&__body {
-		padding-top 0;
+		padding-top 0 !important;
 		margin-bottom -190px;
 		transform translate3d(0, -190px, 0);
 	}
@@ -266,6 +266,7 @@ body {
 		height 190px;
 		text-align center;
 		font-size 18px;
+		transform translate(0, 1px);
 		transition all .3s ease;
 
 		&.active, &:hover {

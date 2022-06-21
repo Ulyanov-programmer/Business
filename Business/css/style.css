@@ -1432,7 +1432,7 @@ body button {
 }
 
 .tabs__body {
-  padding-top: 0;
+  padding-top: 0 !important;
   margin-bottom: -190px;
   -webkit-transform: translate3d(0, -190px, 0);
           transform: translate3d(0, -190px, 0);
@@ -1479,6 +1479,9 @@ body button {
   height: 190px;
   text-align: center;
   font-size: 18px;
+  -webkit-transform: translate(0, 1px);
+      -ms-transform: translate(0, 1px);
+          transform: translate(0, 1px);
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1943,7 +1946,7 @@ body button {
 
   .what-we-do__body {
     gap: 0 70px;
-    padding-bottom: 250px;
+    padding-bottom: 250px !important;
   }
 }
 
