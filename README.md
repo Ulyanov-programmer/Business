@@ -15,6 +15,6 @@ The main page has animations when scrolling, for the rest I was too lazy to do. 
 <br>
 
 You can see this [this on GitHub Pages].<br>
-[This layout on the Figma:](https://www.figma.com/community/file/1110220804342093848)
+[This layout on the Figma](https://www.figma.com/community/file/1110220804342093848)
 
 [this on GitHub Pages]: https://ulyanov-programmer.github.io/Business/Business/
